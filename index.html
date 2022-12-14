@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+function confirmPassword() {
+  var password = document.getElementById("passwordBox");
+  var passwordText = password.value;
+  if (passwordText == "Morgan Teion"){
+    return true;
+  }
+  alert ("Access denied! Incorrect Password");
+  return false;
+} 
+
+
+
+
+
+
+
+
+
+
+
+    
+</script>
+
+<p> Please enter password to view the website:</p>
+<p> Password: <input id="passwordBox" type="password"/>
+<a href="main.html" onclick="return confirmPassword();">
+  Click Here to Enter My App! </a>
+</p>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
